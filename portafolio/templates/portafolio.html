@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Portafolio</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="../static/css/estilos.css">
+		<link rel="stylesheet" href="../static/css/normalize.css">
+	</head>		
+	<body>
+		<h1>Portafolio</h1>
+		<header class="Heder">
+			<nav class="MainMenu">
+				<ul class="MainMenu_Lista">
+					<li class="MainMenu_Item">
+						<a class="MainMenu_Link" href="#perfil">Perfil</a>
+					</li>
+					<li 
+class ="MainMenu_Item">
+						<a class="MainMenu_Link" href="#trabajo">Trabajo</a>
+					</li>
+					<li class="MainMenu_Item">
+						<a class="MainMenu_Link" href="#contacto">Contacto</a>
+					</li>
+				</ul>
+			</nav>
+			<figure class="Heder-imageContainer">
+				<img src="avatar.jpg" alt"imagen personal"/>
+				<figcaption class="Heder-imageDescription">
+					<a href="http://twitter.com/rud0lph" target="_black">@rud0lph</a>
+				</figcaption>
+				<p class="Header_name">Rodolfo Castillo</p>
+			</figure>	
+		</header>
+		<section  class="Profile" id="perfil">
+			<h2 class="Profile_Title">Perfil</h2>
+			<p>
+				Estudiante de Ingenieria en la Universidad Nacional Autónoma de México,<br>
+				coordinador de proyectos en la Sociedad de Alumnos de Inegniería en<br> Computación. Desarrollador y Cofundador de Rojo.<br>
+			</p>
+		</section>
+		<section class="Work" id="trabajo">
+			<h2 class="Work_Title">Trabajo</h2>
+			<article>
+				<figure class="Work_ImageContainer">
+					<img src="trabajo1.jpg" alt="Primer trabajo">
+					<figcaption>TourismApp</figcaption>
+				</figure>	
+			</article>
+			<article>
+				<figure class="Work_ImageContainer">
+					<img src="trabajo2.jpg" alt="Segundo trabajo">
+					<figcaption>Punto y Coma</figcaption>
+				</figure>	
+			</article>
+			<article>
+				<figure class="Work_ImageContainer">
+					<img src="trabajo3.jpg" alt="Tercer trabajo">
+					<figcaption>Brujula</figcaption>
+				</figure>	
+			</article>
+		</section>
+		<footer class="Footer" id="contacto">
+			<h2 class="Footer_Title">Contacto</h2>
+			<p>Tienes sugerencias? Quieres contactarme? Envíame un mensaje o visita mis redes sociales</p>
+			<form class="Footer_Form">
+				<input class="Footer_formInput" type="text" placeholder="Nombre"/>
+				<input class="Footer_formInput" type="email" placeholder="Email"/>
+				<textarea class="Form_textArea" placeholder="Mensaje"></textarea>
+				<button class="Footer_Button" type="submit">Enviar</button>
+			</form>
+			<a class="Footer_Link" href="http://twitter.com/rud0lph" target="_black">twitter</a>
+			<a class="Footer_Link" href="http://facebook.com/rovidrio" target="_black">facebook</a>
+			<a class="Footer_Link" href="http://github.com/rud0lph09" target="_black">gitHub</a>
+		</footer>
+	</body>	
+</html>
