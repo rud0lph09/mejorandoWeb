@@ -1,0 +1,63 @@
+.Title{
+}
+.Header{
+}
+.Header_imageContainer{
+}
+.Header_imageDescription{
+}
+.Header_Name{
+}
+.MainMenu{
+    text-align: center;
+    height: 45px;
+    position: fixed;
+    right: 0;
+    left: .1;
+}
+.MainMenu_Lista{
+}
+.MainMenu_Item{
+    display: inline-block;
+    height: 45px;
+}
+.MainMenu_Link{
+    color: grey;
+    text-decoration: none;
+    
+    
+    background-image: url('../images/assets/boton.png');
+    height: 45px;
+    width: 95px;
+}
+.Profile{
+}
+.Profile_Title{
+}
+.Work{
+}
+.Work_Title{
+}
+.Work_ImageContainer1{
+}
+.Work_ImageContainer2{
+}
+.Work_ImageContainer3{
+}
+.Footer{
+}
+.Footer_Form{
+}
+.Footer_formInput{
+}
+.Footer_textArea{
+}
+.Footer_Button{
+}
+.Footer_Link1{
+}
+.Footer_Link2{
+}
+.Footer_Link3{
+}
+
